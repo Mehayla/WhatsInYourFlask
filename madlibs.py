@@ -58,6 +58,7 @@ def show_madlib():
 
     name = request.args.get("name")
     color = request.args.get("color")
+    # nouns = ['Drumstick','The Sea','Pizza maker']
     noun = request.args.get("noun")
     adjective = request.args.get("adjective")
     

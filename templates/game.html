@@ -28,13 +28,25 @@
         <label>
             Noun:
         </label>
-        <select>
+        <!-- <label for="noun">Choose a noun:</label> -->
+        <select name="noun">
         
             <option value="drumstick"> Drumstick</option>
-            <option value="sea"> The sea</option>
+            <option value="the sea"> The sea</option>
             <option value="pizza maker"> Pizza maker</option>
 
         </select>
+        
+        <!-- {% if noun > 1}
+            <option>?</option>
+            {% for i in values} -->
+
+
+        <!-- <select name="nounz">
+            {% for noun in nouns %}
+                <option value="{{ noun }}" SELECTED>{{ noun }}}</option>
+            {% endfor %}
+        </select> -->
 
         <!-- Checkboxes -->
         <label>
